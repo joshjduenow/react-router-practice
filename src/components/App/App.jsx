@@ -27,13 +27,13 @@ function App() {
           </ul>
         </nav>
         <br />
-        <Route path="/home">
+        <Route exact path="/home">
           <StudentForm />
         </Route>
-        <Route path="/about">
+        <Route exact path="/about">
           <About />
         </Route>
-        <Route path="/allStudents">
+        <Route exact path="/allStudents">
           <p>Student list:</p>
           <StudentList />
         </Route>
